@@ -1,6 +1,8 @@
 name: imaging-env
 channels:
   - defaults
+  - conda-forge
+  - r
 dependencies:
   - python=3.8
   - r-base
