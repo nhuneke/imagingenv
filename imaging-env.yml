@@ -17,4 +17,8 @@ dependencies:
   - dcm2niix
   - dcm2bids
   - nilearn
+  - pip
+  - pip:
+    - pydeface
+    - fmriprep-docker==20.2.4
 prefix: /home/nh6g15/.conda/miniconda3/envs/imagingenv_huneke
