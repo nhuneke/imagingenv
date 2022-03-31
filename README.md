@@ -29,3 +29,11 @@ Deactivate the environment with:
 ```
 conda deactivate
 ```
+
+## Updates
+
+If you download an updated version of the environment file, you will need to update
+the environment on your machine. Navigate to this repository and use the following command:
+```
+conda env update --name=imaging-env --file=imaging-env.yml --prune
+```
