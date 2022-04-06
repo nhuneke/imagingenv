@@ -6,16 +6,22 @@ A conda environment for neuroimaging analysis. This environment should work on a
 
 Requirements:
 - miniconda
+- mamba
 
-First clone this repository with:
+First install mamba in your base environment:
+```
+conda install -c conda-forge mamba
+```
+
+Next clone this repository with:
 ```
 git clone https://github.com/nhuneke/imagingenv imaging-env
 ```
 
-Next, create the environment on your machine with:
+Next create the environment on your machine with:
 ```
 cd imaging-env
-conda env create --file imaging-env.yml
+mamba env create --file imaging-env.yml
 ```
 
 ## Usage
@@ -35,5 +41,5 @@ conda deactivate
 If you download an updated version of the environment file, you will need to update
 the environment on your machine. Navigate to this repository and use the following command:
 ```
-conda env update --name=imaging-env --file=imaging-env.yml --prune
+mamba env update --name=imaging-env --file=imaging-env.yml --prune
 ```
