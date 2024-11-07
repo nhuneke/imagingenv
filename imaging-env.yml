@@ -17,10 +17,10 @@ dependencies:
   - ipython
   - datalad
   - dcm2niix
-  - dcm2bids
+  - dcm2bids==2.1.9
   - nilearn
   - pip
   - pip:
     - pydeface
-    - fmriprep-docker==20.2.4
+    - fmriprep-docker
 prefix: /home/nh6g15/.conda/miniconda3/envs/imagingenv_huneke
