@@ -23,4 +23,4 @@ dependencies:
   - pip:
     - pydeface
     - fmriprep-docker
-prefix: /home/nh6g15/.conda/miniconda3/envs/imagingenv_huneke
+prefix: /home/.conda/miniconda3/envs/imagingenv_huneke
